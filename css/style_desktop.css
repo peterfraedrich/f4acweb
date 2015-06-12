@@ -1,0 +1,148 @@
+/* style_desktop.css */
+
+
+#window {
+
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -101;
+
+}
+
+#menu {
+
+	position: absolute;
+	left: 0px;
+	width: 20%;
+	height: 100%;
+	background-color: rgb(0,173,239);
+	z-index: 100;
+
+}
+
+#img_logo {
+
+	width: 110%;
+	height: auto;
+	margin-top: 10%;
+
+}
+
+.pad {
+
+	width: 1px;
+	height: 1px;
+	margin: 10%;
+	line-height: 40px;
+
+}
+
+.nav_btn {
+
+	display: block;
+	color: rgba(255,255,255,0.5);
+	font-weight: 400;
+	width: 110%;
+	background-color: rgba(255,255,255,0.0);
+	text-align: right;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+	cursor: pointer;
+
+}
+
+.nav_btn:hover {
+
+	background-color: rgba(255,255,255,1);
+	color: rgb(0,173,239);
+
+}
+
+#wrapper {
+
+	position: absolute;
+	top: 0px;
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+	background-color: rgba(0,173,239,0.2);
+	z-index: -100;
+
+}
+
+#content_wrapper {
+
+
+
+}
+
+#home_content {
+	display: block;
+}
+.content {
+
+	position:absolute;
+	width: 87%;
+	height: 95%;
+	color: #FFF;
+	position: absolute;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.body_text {
+	position: absolute;
+	overflow-y: auto;
+	height: 90%;
+	padding-right: 10px;
+
+}
+
+#tour_content {
+	display: none;
+}
+
+#bio_content {
+	display: none;
+}
+
+#merch_content {
+	display: none;
+}
+
+#music_content {
+	display: none;
+}
+
+.title {
+
+	font-family: 'Montserrat', sans-serif;
+	font-size: 5em;
+
+}
+
+.body_text {
+	color: #DDD;
+	font-family: 'Montserrat';
+	font-weight: 400;
+}
+
+/* webkit */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0.1); 
+    border: 0px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: rgb(0,172,239);
+}
+::-webkit-scrollbar-thumb:active {
+    background-color: rgb(255,255,255);
+}
