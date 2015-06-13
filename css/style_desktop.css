@@ -127,7 +127,7 @@
 
 	font-family: 'Montserrat', sans-serif;
 	font-size: 5em;
-
+	color: rgb(0,179,236);
 }
 
 .body_text {
@@ -167,7 +167,7 @@
 
 #more_video {
 
-	position: absolute;
+	position: relative;
 	height: 110%;
 	width: 110%;
 	z-index: -1000;
