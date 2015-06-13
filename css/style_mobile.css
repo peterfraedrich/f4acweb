@@ -26,7 +26,7 @@
 }
 
 #menu {
-	position: absolute;
+	position: fixed;
 	background-color: rgb(0,179,236);
 	height: 100%;
 	width: 20%;
@@ -37,8 +37,8 @@
 #nav {
 	position: absolute;
 	display: inline-block;
-	height: 50px;
-	margin-top: 50px;
+	height: 20px;
+	margin-top: 70px;
 }
 
 .nav_btn {
@@ -46,10 +46,11 @@
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	color: #FFF;
-	font-size: 2em;
+	font-size: 0.8em;
 	height: 100%;
-	line-height: 50px;
+	line-height: 20px;
 	padding-left: 10px;
+	width: 85%;
 }
 
 .nav_btn:hover {
@@ -61,7 +62,7 @@
 
 .pad {
 
-	margin-right: 10px;
+	margin-right: 0px;
 
 }
 
@@ -71,7 +72,7 @@
 	height: 40px;
 	width: auto;
 	margin-left: 10px;
-	margin-top: 4px;
+	margin-top: 10px;
 
 }
 
@@ -102,14 +103,16 @@
 .title {
 
 	font-family: 'Montserrat', sans-serif;
-	font-size: 5em;
-	color: #FFF
+	font-size: 3em;
+	color: #FFF;
 }
 
 .body_text {
 	color: #DDD;
 	font-family: 'Montserrat';
 	font-weight: 400;
+	font-size: .6em;
+	line-height: 15px;
 }
 
 .content {
