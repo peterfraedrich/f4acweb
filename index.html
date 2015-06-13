@@ -5,9 +5,17 @@
 	<script src="./js/main.js"></script>
 	<link rel="stylesheet" type="text/css" href="./css/style_common.css">
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<!--[if IE ]>
+		<script>
+			document.getElementById('ie_div').style.display = 'block';
+			var parent = document.getElementById('document_body');
+			var child = document.getElementById('window');
+			parent.removeChild(child);
+		</script>
+	<![endif]-->
 </head>
 
-<body>
+<body id='document_body'>
 	<div id="window"><!-- main window div, all elements fall inside this one -->
 		<div id="menu">
 			<div id="logo"><img id="img_logo" src="./img/logo.png"></div>
@@ -100,16 +108,18 @@
 			<!--</div>content wrapper-->
 
 		</div> <!-- wrapper -->
-		<div id="logotype"><img src="./img/logotype_white.png" id="logotype_img"></div>
+		<div id="logotype">
+			<img src="./img/logotype_white.png" id="logotype_img">
+		</div>
 		<div id="video_underlay">
 			<iframe id="more_video" width="1920px" height="1080px" src="https://www.youtube-nocookie.com/embed/GKBdkHDB7oo?autoplay=1&amp;controls=0&amp;loop=1&amp;showinfo=0&amp;modestbranding=1&amp;disablekb=1&amp;enablejsapi=1&amp;VQ=HD1080;&amp;playlist=GKBdkHDB7oo" frameborder="0" allowfullscreen></iframe>
-	</div>
+		</div>
 	</div> <!-- window -->
-	<div id="mobile_temp">
+	<div id="ie_div">
 		<center>
-			<img src="./img/logo.png" id="logo_mobile"><br>
-			<span class="m_h1">SORRY</span><br>
-			<span class="m_body">Our mobile version isn't up and running yet.<br>Come back soon!<br><br>-- FAMOUS FOR A CENTURY</span>
+			<img src="./img/logo.png" id="logo_ie"><br>
+			<span class="ie_h1">SORRY</span><br>
+			<span class="ie_body">This website uses HTML5, CSS3, and JavaScript and will not display<br>properly on Internet Explorer. Please use a different browser, such as <br>Google Chrome or Mozilla Firefox.<br>Thanks!<br><br>-- FAMOUS FOR A CENTURY</span>
 		</center>
 	</div>
 </body>
