@@ -40,6 +40,10 @@
 
 }
 
+#nav {
+	-webkit-transform: skewY(-9.5deg);
+}
+
 .nav_btn {
 
 	display: block;
@@ -51,6 +55,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.5em;
 	cursor: pointer;
+	transition: background-color 0.3s;
 
 }
 
@@ -68,7 +73,8 @@
 	width: 80%;
 	height: 100%;
 	margin-left: 20%;
-	background-color: rgba(0,173,239,0.2);
+	/*background-color: rgba(0,173,239,0.2);*/
+	background-color: rgba(0,0,0,0.9);
 	z-index: -100;
 
 }
@@ -95,7 +101,8 @@
 .body_text {
 	position: absolute;
 	overflow-y: auto;
-	height: 90%;
+	height: 80%;
+	width: 100%;
 	padding-right: 10px;
 
 }
@@ -129,6 +136,53 @@
 	font-weight: 400;
 }
 
+#logotype {
+
+	position: absolute;
+	bottom: 0px;
+	margin-left: 22%;
+	width: 76%;
+	margin-bottom: 10px;
+
+}
+
+#logotype_img {
+
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+
+#video_underlay {
+	position: absolute;
+	z-index: -101;
+	margin-left: 20%;
+	top: 0px;
+	width: 80%;
+	height: 100%;
+	overflow: hidden;
+
+}
+
+#more_video {
+
+	position: absolute;
+	height: 110%;
+	width: 110%;
+	z-index: -1000;
+	top: -40px;
+}
+
+
+
+
+
+
+
+
+
+
 /* webkit */
 
 ::-webkit-scrollbar {
@@ -146,3 +200,5 @@
 ::-webkit-scrollbar-thumb:active {
     background-color: rgb(255,255,255);
 }
+
+
