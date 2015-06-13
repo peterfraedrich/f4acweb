@@ -47,11 +47,13 @@
 	font-size: 2em;
 	height: 100%;
 	line-height: 50px;
+	padding-left: 10px;
 }
 
 .nav_btn:hover {
 
 	background-color: #FFF;
+	color: #000;
 
 }
 
