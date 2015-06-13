@@ -30,6 +30,7 @@
 	background-color: rgb(0,179,236);
 	height: 100%;
 	width: 20%;
+	z-index: 2;
 	
 
 }
@@ -119,5 +120,13 @@
 
 	margin-left: 5%;
 	margin-right: 5%;
+}
 
+#home_text {
+
+	overflow: none;
+}
+
+#toplogo {
+	width: 100%;
 }
