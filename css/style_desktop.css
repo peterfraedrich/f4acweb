@@ -42,6 +42,7 @@
 
 #nav {
 	-webkit-transform: skewY(-9.5deg);
+	-moz-webkit-transform: skewY(-9.5deg);
 }
 
 .nav_btn {
@@ -56,6 +57,8 @@
 	font-size: 1.5em;
 	cursor: pointer;
 	transition: background-color 0.3s;
+	-moz-transition: background-color 0.3s;
+	-webkit-transition: background-color 0.3s;
 
 }
 
@@ -187,6 +190,21 @@
     background-color: rgb(0,172,239);
 }
 ::-webkit-scrollbar-thumb:active {
+    background-color: rgb(255,255,255);
+}
+::-moz-webkit-scrollbar {
+    width: 10px;
+}
+ 
+::-moz-webkit-scrollbar-track {
+    background-color: rgba(255,255,255,0.1); 
+    border: 0px;
+}
+ 
+::-moz-webkit-scrollbar-thumb {
+    background-color: rgb(0,172,239);
+}
+::-moz-webkit-scrollbar-thumb:active {
     background-color: rgb(255,255,255);
 }
 
